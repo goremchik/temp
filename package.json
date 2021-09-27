@@ -1,0 +1,32 @@
+{
+  "name": "software-designs",
+  "version": "1.0.0",
+  "description": "Software designs and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "prettier": "prettier --config .prettierrc --list-different --ignore-path ./.gitignore .",
+    "prettier-format": "prettier --config .prettierrc --write --ignore-path ./.gitignore .",
+    "task-1": "jest 01_oop_and_ood/test",
+    "task-2": "ts-node 02_oop_part_1/usage",
+    "task-3": "jasmine-ts --config=jasmine.json 03_oop_part_2/test/*.spec.ts",
+    "task-4": "ts-node 04_designe_patterns"
+  },
+  "author": "Andrii Shoferivskyi",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "@types/jest": "^27.0.1",
+    "@types/jasmine": "^3.5.14",
+    "jasmine": "^3.6.1",
+    "jasmine-ts": "^0.3.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {}
+}
